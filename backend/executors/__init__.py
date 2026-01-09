@@ -30,3 +30,6 @@ class HelloWorldExecutor:
 
         logger.info("Hello World node completed successfully")
         return output
+
+
+__all__ = ["HelloWorldExecutor"]
