@@ -10,7 +10,7 @@
     {
       "type": "hello-world",
       "label": "Hello World",
-      "category": "Example",
+      "category": "custom",
       "description": "A simple node that outputs 'Hello, World!'"
     }
   ],
