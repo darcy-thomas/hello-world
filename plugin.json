@@ -1,0 +1,23 @@
+{
+  "id": "hello-world",
+  "name": "Hello World Plugin",
+  "version": "1.0.0",
+  "author": "AgentHub Team",
+  "description": "A simple hello world plugin to test the plugin system",
+  "repository": "https://github.com/h20coder/plugin-hello-world",
+  "category": "nodes",
+  "tags": ["example", "test", "hello-world"],
+  "providers": [],
+  "nodes": [
+    {
+      "type": "hello-world",
+      "label": "Hello World",
+      "category": "Example",
+      "description": "A simple node that outputs 'Hello, World!'",
+      "tags": ["example", "test"]
+    }
+  ],
+  "dependencies": {
+    "python": ">=3.10"
+  }
+}
